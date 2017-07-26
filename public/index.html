@@ -96,15 +96,14 @@ function resizeText() {
   </div>
 </div>
 <!--Header_section-->
-<section id="featured-list" class="top_cont_outer">
+<section  class="top_cont_outer">
   <div class="top_cont_inner">
     <div class="container">
       <div class="top_content">
         <div class="row">
           <div class="col-lg-5 col-sm-7">
             <div class="top_left_cont  wow animated">
-              <h2 style="color:white" class="parallax">We Repair Phones And Computers
-               </h2>
+              <h2  style="color:white; font-size:90px;" class="parallax responsive-title">We Repair Phones And Computers</h2>
               <div class="line">
                 <div class="line-animation">
                 </div>
@@ -116,6 +115,7 @@ function resizeText() {
       </div>
     </div>
   </div>
+  </div>
 </section>
 
 <section  class="top_cont_outer">
@@ -125,19 +125,20 @@ function resizeText() {
         <div class="row">
           <div class="col-lg-5 col-sm-7">
             <div class="top_left_cont  wow animated">
-              <h2 style="color:white" class="parallax">Or Come Play At Our Gaming Lounge
+              <h2 style="color:white; font-size:90px;" class="parallax responsive-title">Or Come Play At Our Gaming Lounge
               </h2>
               <div class="line">
                 <div class="line-animation">
                 </div>
               </div>
-              <p style="margin-top:20px; color:white;">Come and enjoy our internet cafe and gaming lounge!</p>
+              <p style="margin-top:20px;  color:white;">Come and enjoy our internet cafe and gaming lounge!</p>
             </div>
             <div class="col-lg-7 col-sm-5"> </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </section>
 
 <!--Top_content-->
@@ -694,6 +695,14 @@ Lilburn, Ga 30047 </span> </div>
     });
 
 
+    $(window).scroll(function(){
+        wScroll2 = $(window).scrollTop();
+        if(wScroll2 > 50){
+            $(".sub-title").fadeOut("slow");
+        }  else {
+            $(".sub-title").fadeIn("slow");
+        }
+    });
 
 
     $(document).ready(function(e) {
@@ -719,14 +728,7 @@ Lilburn, Ga 30047 </span> </div>
       }
     );
     wow.init();
-    document.getElementById('').onclick = function() {
-      var section = document.createElement('section');
-      section.className = 'wow fadeInDown';
-	  section.className = 'wow shake';
-	  section.className = 'wow zoomIn';
-	  section.className = 'wow lightSpeedIn';
-      this.parentNode.insertBefore(section, this);
-    };
+
   </script>
 <script type="text/javascript">
 
@@ -742,23 +744,6 @@ Lilburn, Ga 30047 </span> </div>
 
 
 
-	$(window).load(function(){
-
-		$('a').bind('click',function(event){
-			var $anchor = $(this);
-
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top - 91
-			}, 1500,'easeInOutExpo');
-			/*
-			if you don't want to use the easing effects:
-			$('html, body').stop().animate({
-				scrollTop: $($anchor.attr('href')).offset().top
-			}, 1000);
-			*/
-			event.preventDefault();
-		});
-	})
 </script>
 
 <!--<script type="text/javascript">

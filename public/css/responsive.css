@@ -3,19 +3,31 @@
    ========================================================================== */
 
 @media only screen and (max-width: 1380px) {
-	
+	body{
+		background:green;
+	}
 }
 @media only screen and (min-width: 980px) and (max-width: 1200px) {
+	body{
+		background:red;
+	}
 	.portfolioContainer { margin:0px auto;}
 	#work_outer{ background-size:450px; padding:40px 0px; background-position:right 230px; }
-	.top_cont_inner{ background-size:400px;}
-	
+	.top_cont_inner{width:100% !important;}
+
 	.top_cont_latest{ background-size:500px;}
+
+	.responsive-title {
+		margin-left: -100px;
+	}
 }
-   
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	/****Ipad Portrait 768 Container 750 ****/
 	body{ font-size:13px;}
+	body{
+		background:yellow;
+	}
 	p{ line-height:20px ;}
 	.header h1{ font-size:46px;}
 	.main-nav ul li a{ padding:14px;}
@@ -32,11 +44,14 @@
 	.form{ margin:0;}
 	.contact-info-box{ margin:0 ;}
 	.social-link{ margin:0;}
-	
+
+	.responsive-title {
+
+	}
 	.main-nav{ display:block !important; }
 	.main-nav li a{ padding:8px 15px;}
 	.top_cont_inner{ background-size:327px;}
-	
+
 	.top_cont_latest{ background-size:327px;}
 	.top_left_cont { padding:30px 0;}
 	.top_left_cont h2{ font-size:24px;}
@@ -50,15 +65,18 @@
 	.client_area{ width:700px;}
 	.client_profile_pic{ width:150px; height:150px;}
 	.quote_section.flt{ margin:6px 0 0 0;}
-	
-   
-	
-	
-	 
-	
+
+
+
+
+
+
 }
 
 @media only screen and (max-width: 767px) {
+	body{
+		background:purple;
+	}
 	/****Mobile Landscape 480 Container 100% ****/
 	.client_profile_pic{ float:none; width:150px; height:150px; margin:0px auto;}
 	#client_outer{ padding:25px 0px;}
@@ -71,10 +89,10 @@
 	.service_area{ padding:25px 0px;}
 	.service_block{ margin:0 0 20px 0;}
 	#service{ padding:20px 0px;}
-	.work_section{ padding:25px 0px;} 
+	.work_section{ padding:25px 0px;}
 	#work_outer{background:none; padding:25px 0px; }
 	.top_cont_inner{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
-	
+
 	.top_cont_latest{background-size: 90% auto; -webkit-background-size: 90% auto;padding-bottom: 68%;}
 	.top_left_cont { padding: 10% 0;}
 	.top_left_cont h2{ font-size:29px;}
@@ -104,7 +122,7 @@
 	.business-talking h2{ font-size:36px;}
 	.contact-info-box{ margin:0 0 12px 30px; font-size:12px;}
 	.contact-info-box span{ line-height:18px;}
-	.social-link{ margin-left:30px;} 
+	.social-link{ margin-left:30px;}
 	.form{ margin:0 30px;}
 	.copyright{ font-size:12px;}
 	.business-talking a{ padding:10px 25px; font-size:14px;}
@@ -120,15 +138,15 @@
 	.isotope{ width:400px; margin:0px auto;}
 	.Portfolio-box{}
 	.portfolioContainer{ width:350px; margin:0px auto !important; } */
-	
+
 	.portfolioContainer { max-width:350px; margin:0px auto;}
 	.logo{ margin:0px auto 10px; float:none; }
 	.nav{ float:none; position:absolute; width:100%; top: 73px;}
-	
+
 	toggle.ul{ background:#fff; width:100%;}
 	.nav ul li{ border-bottom:1px solid #CCC; display:block; float:none; width:100%; margin:0px; text-align:center;}
 	.nav ul li a{ padding:6px 0px}
-	.res-nav_click{ 
+	.res-nav_click{
 		bottom: -42px;
 		display: block;
 		font-size: 25px;
@@ -138,14 +156,14 @@
 	.res-nav_click a{ text-decoration:none;}
 	.res-nav_click a:hover{ text-decoration:none; color:#060;}
 	.nav ul{ background:#fff; display:none;}
-	
+
 .nav ul.toggle{
 	display:none;
 	visibility:visible;
 	height:auto;
 	overflow:auto;
 	}
-	
+
 .work_pic {
     position: relative;
     right: 0;
@@ -153,10 +171,13 @@
     width: 90%;
 	margin-left: 10%;
 }
-	
+
 }
 
 @media only screen and (max-width: 479px) {
+	body{
+		background:blue;
+	}
 	/****Mobile Portrait 320 ****/
 	#filters ul li{ display:block;}
 	.contact-info-box{ margin-left:0px;}
@@ -167,10 +188,10 @@
 	.Portfolio-box{  max-width:300px !important; width:96.4% !important; margin:0 !important}
 	.Portfolio-box img { max-width:100%;}
 	.portfolioContainer{ width:280px !important; margin:0 auto !important }
-	.top_left_cont h2{ font-size:20px;} 
+	.top_left_cont h2{ font-size:20px;}
 	.client_area{ width:276px;}
-	.quote_section p{ font-size:15px;} 
+	.quote_section p{ font-size:15px;}
 	.c-logo-part{ padding:18px 0px;}
 	.c-logo-part ul li{ margin:6px 0px; display:block;}
-	
+
 }
