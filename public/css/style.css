@@ -2030,6 +2030,7 @@ body {
 	}
 	.top_left_cont {
 		margin-top:50px !important;
+
 	}
 
 	.sub-title {
@@ -2113,8 +2114,16 @@ body {
 	.side-nav-width {
 		width:100%;
 	}
+	.side-side-nav {
+		display: none !important;
+	}
+	.side-nav h1 {
+		margin-left: 20px !important;
+	}
 
 	.responsive-title {
 		font-size:20px !important;
 	}
 }
+
+
