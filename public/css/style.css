@@ -935,12 +935,13 @@ img {
 /* Team
 ---------------------------------*/
 .team-leader-block{
-	max-width:993px;
+	max-width:100%;
 	margin:0 auto;
 }
 .team-leader-box{
 	width:30.66%;
 	margin-right: 3.82979%;
+	margin-left: 100px;
 	height: 490px;
 	overflow: hidden;
 	text-align: center;
