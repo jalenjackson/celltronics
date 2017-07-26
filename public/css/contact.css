@@ -2,9 +2,12 @@ body {
     background: rgb(37,31,31) !important;
 }
 
-.contact-container img {
-    width: auto;
-    height: 300px;
+.contact-container a img {
+
+}
+
+.contact-container {
+    margin-top:150px;
 }
 
 .contact-container h1 {
@@ -21,3 +24,26 @@ body {
     font-family: Questrial, sans-serif;
     letter-spacing: 2px;
 }
+
+.contact-img {
+    width: auto !important;
+    height: 100px !important;
+    filter: grayscale(100%);
+    display: block;
+    margin: 0 auto;
+    transition: all 400ms ease-in-out;
+}
+
+.contact-img:hover {
+    filter: grayscale(0%);
+}
+
+.contact-img-container {
+    margin: 0 auto;
+    display: block;
+    margin-top:20px;
+    width:50%;
+}
+
+
+

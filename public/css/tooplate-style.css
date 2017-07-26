@@ -1074,3 +1074,50 @@ figure.effect-bubba:hover p {
 	-o-transform: rotate(-135deg);
 	transform: rotate(-135deg);
 }
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	body {
+	}
+
+	.tm-text-title {
+		margin-top: 50px !important;
+	}
+	.side-nav-width {
+		width: 65% !important;
+	}
+
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+	body {
+	}
+	.tm-text-title {
+		margin-top: 50px !important;
+	}
+	.side-nav-width {
+		width: 100% !important;
+	}
+
+}
+
+@media (max-width: 480px) {
+	body {
+	}
+	.tm-text-title {
+		margin-top: 50px !important;
+		margin-left: -50px !important;
+	}
+	.side-nav-width {
+		width: 100% !important;
+	}
+	.logo{
+		margin-left: 130px !important;
+	}
+
+}
+
+
+
