@@ -1,0 +1,23 @@
+body {
+    background: rgb(37,31,31) !important;
+}
+
+.contact-container img {
+    width: auto;
+    height: 300px;
+}
+
+.contact-container h1 {
+    color:white;
+    font-size:30px;
+    text-align: center;
+    font-family: Questrial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.contact-container p {
+    text-align: center;
+    color:white;
+    font-family: Questrial, sans-serif;
+    letter-spacing: 2px;
+}

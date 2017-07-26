@@ -1,0 +1,52 @@
+body {
+    background: rgb(37,31,31) !important;
+}
+
+.videos {
+    width: 100%;
+    height:300px;
+}
+.video-title {
+    font-size: 65px;
+    color:white;
+    font-weight:lighter;
+    font-family:Questrial, sans-serif;
+    letter-spacing: 4px;
+}
+
+.iframe-player {
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background:rgb(31,31,31);
+    z-index:9999999999999999999999;
+
+}
+
+.move-over {
+    color:white;
+    font-size:70px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-right: 30px;
+    position: fixed;
+    z-index:99999999999999999999999999999999999999;
+}
+
+.ex {
+    position: fixed;
+    right: 0;
+    top:50px;
+    background:white;
+    width:100px;
+    height: 100px;
+}
+
+.frames {
+    width:100%;
+    height: 100%;
+    position: fixed;
+
+}
