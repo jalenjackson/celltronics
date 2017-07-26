@@ -27,7 +27,7 @@
 }
 
 body {
-	background: rgb(37,31,31) !important;
+	background: white !important;
 }
 
 .featured {
@@ -103,6 +103,7 @@ body {
 	color:#888888;
 	margin:0;
 }
+
 h2{
 	font-size:38px;
 	color:#222222;
@@ -2126,4 +2127,6 @@ body {
 	}
 }
 
-
+h3,p {
+	color:black !important;
+}
