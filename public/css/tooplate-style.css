@@ -1116,6 +1116,12 @@ figure.effect-bubba:hover p {
 	.logo{
 		margin-left: 130px !important;
 	}
+	.side-side-nav {
+		display: none !important;
+	}
+	.side-nav h1 {
+		margin-left: 20px !important;
+	}
 
 }
 
