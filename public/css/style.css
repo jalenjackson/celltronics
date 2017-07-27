@@ -2136,7 +2136,7 @@ body {
 	}
 	.second-responsive-message {
 		display: block;
-		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(https://i.ytimg.com/vi/yMc6ZUvP6Lw/maxresdefault.jpg) center center no-repeat;
+		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(http://www.gamengadgets.com/wp-content/uploads/2016/04/cr.jpg) center center no-repeat;
 
 	}
 	.responsive-message h1 {
@@ -2178,8 +2178,8 @@ body {
 
 	.second-responsive-message {
 		display: block;
-		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(https://i.ytimg.com/vi/yMc6ZUvP6Lw/maxresdefault.jpg) center center no-repeat !important;
-
+		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(http://www.gamengadgets.com/wp-content/uploads/2016/04/cr.jpg) center center no-repeat !important;
+		background-size: 100% 100% !important;
 	}
 
 	.responsive-message {
