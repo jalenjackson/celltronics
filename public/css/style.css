@@ -342,6 +342,7 @@ p{
 .top_cont_outer{
 	background:#f9f9f9;
 	position:relative !important;
+	overflow: hidden !important;
 	}
 
 .side-nav {
@@ -2042,7 +2043,6 @@ body {
 
 @media (min-width: 768px) and (max-width: 991px) {
 	body {
-		background:red !important;
 
 	}
 	.top_left_cont {
