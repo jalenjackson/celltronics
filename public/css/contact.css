@@ -11,7 +11,7 @@ body {
 }
 
 .contact-container h1 {
-    color:white;
+    color:black !important;
     font-size:30px;
     text-align: center;
     font-family: Questrial, sans-serif;
@@ -20,7 +20,7 @@ body {
 
 .contact-container p {
     text-align: center;
-    color:white;
+    color:black;
     font-family: Questrial, sans-serif;
     letter-spacing: 2px;
 }

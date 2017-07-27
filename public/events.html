@@ -86,7 +86,7 @@
                         <div class="tm-img-gallery gallery-one">
                             <!-- Gallery One pop up connected with JS code below -->
                             <div class="tm-img-gallery-info-container">
-                                <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Events</span></h2>
+                                <h2 class="tm-text-title tm-gallery-title tm-white"><span style="color:black !important;" class="tm-white">Events</span></h2>
                             </div>
                             <div class="grid-item">
                                 <figure class="effect-bubba">
@@ -128,7 +128,7 @@
                                 </figure>
                             </div>
                             <div class="tm-img-gallery-info-container">
-                                <h2 class="tm-text-title tm-gallery-title tm-white"><span class="tm-white">Past Events</span></h2>
+                                <h2 class="tm-text-title tm-gallery-title tm-white"><span style="color:black !important;" class="tm-white">Past Events</span></h2>
                             </div>
                             <div class="grid-item">
                                 <figure class="effect-bubba">
@@ -558,6 +558,8 @@
     });
 
     $(".nav").click(function(){
+        $("#nav-icon1 span, #nav-icon3 span, #nav-icon4 span").toggleClass("change-nav-color2");
+
         $(".logo").toggleClass("changeColor");
         $(".side-nav").toggleClass("side-nav-width")
         $(".side-side-nav").toggleClass("side-side-nav-width");

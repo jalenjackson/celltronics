@@ -222,16 +222,21 @@ p{
 
 
 
+.change-logo-color {
+	color: black !important;
+}
 
+.change-nav-color{
+	background:black !important;
+}
 
 
 .logo{
 	float:left;
-	color:white;
 	margin-left:150px;
 	font-size:40px !important;
 	font-family: 'Pacifico', cursive;
-
+	transition: all 300ms ease-in-out;
 }
 
 .changeColor {
@@ -437,18 +442,26 @@ side-nav h1 {
 	height: auto;
 }
 
-
+.video-bg {
+	position: absolute;
+	top:0;
+	left:0;
+	min-width:100%;
+	min-height:100%;
+	width:auto;
+	height: auto;
+}
 
 .top_cont_inner{
-	background:url(https://s-media-cache-ak0.pinimg.com/originals/69/f9/e9/69f9e9afdabacb960185c5aaea3af619.gif) no-repeat center center;
+	background:url(http://pete.langezone.com/pics/malmaison/books-1920.jpg) no-repeat center center;
 	background-size: 100% 100% !important;
 	background-attachment: fixed;
 	}
 
 .second_cont_inner {
-	background:url(http://www.myoilandgascareer.com/media/journey/gaming.gif) no-repeat center center !important;
 	background-size: 100% 100% !important;
 	background-attachment: fixed;
+	position: relative !important;
 }
 
 .top_content{
@@ -1316,7 +1329,11 @@ img {
 ---------------------------------*/
 
 .footer_section{
-		   background:rgb(201,52,69);
+		   background:rgb(31,31,31);
+}
+
+.change-nav-color2 {
+	background:white !important;
 }
 
 .side-nav h1:hover{
@@ -2008,6 +2025,8 @@ img {
 	-o-transform: rotate(135deg);
 	transform: rotate(135deg);
 }
+
+
 
 #nav-icon1.open span:nth-child(2) {
 	opacity: 0;

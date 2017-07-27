@@ -104,10 +104,6 @@ function resizeText() {
           <div class="col-lg-5 col-sm-7">
             <div class="top_left_cont  wow animated">
               <h2  style="color:white; font-size:70px;" class="parallax responsive-title">Phone & Computer Repair, Internet Cafe & Gaming Lounge</h2>
-              <div class="line">
-                <div class="line-animation">
-                </div>
-              </div>
               <p style="margin-top:20px; color:white !important;">Our experienced representatives will repair your phone or computer</p>
           </div>
           <div class="col-lg-7 col-sm-5"> </div>
@@ -119,19 +115,19 @@ function resizeText() {
 </section>
 
 <section  class="top_cont_outer">
-  <div class="top_cont_inner second_cont_inner">
+
+  <div class=" second_cont_inner">
+    <video class="video-bg" autoplay muted loop>
+      <source src="images/gaming.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <div class="container">
       <div class="top_content">
         <div class="row">
           <div class="col-lg-5 col-sm-7">
             <div class="top_left_cont  wow animated">
-              <h2 style="color:white; font-size:90px;" class="parallax responsive-title">Or Come Play At Our Gaming Lounge
+              <h2 style="color:white; font-size:70px;" class="parallax responsive-title">Or Come Play At Our Gaming Lounge
               </h2>
-              <div class="line">
-                <div class="line-animation">
-                </div>
-              </div>
-              <p style="margin-top:20px;  color:white !important;">Come and enjoy our internet cafe and gaming lounge!</p>
             </div>
             <div class="col-lg-7 col-sm-5"> </div>
           </div>
@@ -661,7 +657,8 @@ Lilburn, Ga 30047 </span> </div>
     });
 
     $(".nav").click(function(){
-       $(".logo").toggleClass("changeColor");
+        $("#nav-icon1 span, #nav-icon3 span, #nav-icon4 span").toggleClass("change-nav-color2");
+        $(".logo").toggleClass("changeColor");
        $(".sub-title").toggleClass("display-change");
        $(".side-nav").toggleClass("side-nav-width")
        $(".side-side-nav").toggleClass("side-side-nav-width");
@@ -674,6 +671,14 @@ Lilburn, Ga 30047 </span> </div>
             $(".sub-title").fadeOut("slow");
         }  else {
             $(".sub-title").fadeIn("slow");
+        }
+        if(wScroll2 > 1200){
+            $(".logo").addClass("change-logo-color");
+            $("#nav-icon1 span, #nav-icon3 span, #nav-icon4 span").addClass("change-nav-color");
+        } else {
+            $(".logo").removeClass("change-logo-color");
+            $("#nav-icon1 span, #nav-icon3 span, #nav-icon4 span").removeClass("change-nav-color");
+
         }
     });
 
