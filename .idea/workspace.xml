@@ -25,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
-              <caret line="599" column="24" lean-forward="false" selection-start-line="599" selection-start-column="24" selection-end-line="599" selection-end-column="24" />
+              <caret line="541" column="184" lean-forward="false" selection-start-line="541" selection-start-column="184" selection-end-line="541" selection-end-column="184" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -170,7 +170,6 @@
       <find>videob</find>
       <find>.l</find>
       <find>Come and en</find>
-      <find>footer</find>
       <find>change</find>
       <find>phone</find>
       <find>Phone</find>
@@ -193,6 +192,7 @@
       <find>header_outer</find>
       <find>responsive</find>
       <find>responsive-message</find>
+      <find>footer</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -565,12 +565,12 @@
       <workItem from="1501029814318" duration="11425000" />
       <workItem from="1501047964840" duration="5733000" />
       <workItem from="1501132928222" duration="2307000" />
-      <workItem from="1501189244050" duration="5922000" />
+      <workItem from="1501189244050" duration="6096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25387000" />
+    <option name="totallyTimeSpent" value="25561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1102,7 +1102,7 @@
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
-          <caret line="599" column="24" lean-forward="false" selection-start-line="599" selection-start-column="24" selection-end-line="599" selection-end-column="24" />
+          <caret line="541" column="184" lean-forward="false" selection-start-line="541" selection-start-column="184" selection-end-line="541" selection-end-column="184" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
