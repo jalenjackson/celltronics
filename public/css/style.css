@@ -2075,8 +2075,10 @@ body {
 
 @media (min-width: 480px) and (max-width: 768px) {
 	body {
-		background:red !important;
 
+	}
+	.top_cont_outer {
+		display: none !important;
 	}
 
 	.top_left_cont {
@@ -2088,6 +2090,18 @@ body {
 		text-align: center !important;
 		margin-left: 200px !important;
 		margin-top: 20px !important;
+		position: fixed;
+		top:10px;
+		color:black !important;
+	}
+
+	.side-nav {
+		height:100% !important;
+	}
+	.side-nav h1 {
+		font-size:20px !important;
+		margin-top:0px !important;
+		transform:translateY(100px);
 	}
 
 	.fa-bars {
@@ -2102,9 +2116,29 @@ body {
 	.side-nav-width {
 		width:100%;
 	}
+	#nav-icon1 span, #nav-icon3 span, #nav-icon4 span {
+		background: black;
+	}
 
 	.responsive-title {
 		font-size:20px !important;
+	}
+	.responsive-message {
+		display: block;
+		background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.2)), url(http://pete.langezone.com/pics/malmaison/books-1920.jpg) center center no-repeat;
+
+	}
+	.responsive-message h1 {
+		text-align: center;
+		font-size:30px;
+		transform:translateY(100px);
+	}
+	.responsive-message p {
+		text-align:center;
+		color:white !important;
+		font-size:20px;
+		margin-top:150px !important;
+
 	}
 }
 
