@@ -399,7 +399,7 @@ side-nav h1 {
 }
 
 .side-nav-width {
-	width:50%;
+	width:500px !important;
 }
 .side-side-nav-width {
 	width: 130px;
@@ -1980,7 +1980,7 @@ img {
 	position: absolute;
 	height: 2px;
 	width: 100%;
-	background: white;
+	background: black;
 	opacity: 1;
 	left: 0;
 	top:0;
