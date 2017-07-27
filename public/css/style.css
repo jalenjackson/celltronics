@@ -453,9 +453,8 @@ side-nav h1 {
 }
 
 .top_cont_inner{
-	background:url(http://pete.langezone.com/pics/malmaison/books-1920.jpg) no-repeat center center;
+	background:linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url(../images/thumbnail_IMG_20170727_163821.jpg) no-repeat center center;
 	background-size: 100% 100% !important;
-	background-attachment: fixed;
 	}
 
 .second_cont_inner {
