@@ -365,7 +365,7 @@ p{
 
 .side-nav h1 {
 	margin-left:150px;
-	transform: translateY(150px);
+	transform: translateY(50px);
 	color:white;
 	transition: all 200ms ease-in-out;
 }
@@ -957,10 +957,10 @@ img {
 	margin:0 auto;
 }
 .team-leader-box{
-	width:30.66%;
+	width:25.66%;
 	margin-right: 3.82979%;
-	margin-left: 100px;
-	height: 490px;
+	margin-left: 30px;
+	height: 400px;
 	overflow: hidden;
 	text-align: center;
 	float: left;
@@ -2105,7 +2105,7 @@ body {
 	.side-nav h1 {
 		font-size:20px !important;
 		margin-top:0px !important;
-		transform:translateY(100px);
+		transform:translateY(-300px) !important;
 	}
 
 	.fa-bars {

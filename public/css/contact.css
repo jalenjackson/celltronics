@@ -8,6 +8,12 @@ body {
 .contact-container {
     margin-top:150px;
 }
+.hide-away{
+    opacity: 0 !important;
+}
+.smaller {
+    font-size:12px !important;
+}
 
 .contact-container h1 {
     color:black !important;

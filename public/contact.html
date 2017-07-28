@@ -22,17 +22,18 @@
     <header id="header_outer">
         <div class="container">
             <div class="header_section">
-                <h1 style="margin-top:-10px" class="logo">Cellltronics&reg;</h1>
+                <img class="logo" style="width:270px !important;height: 130px !important; margin-left: 150px !important; transform:translateY(-35px) !important; z-index: -100 !important;" src="images/celltronics-logo-png.png"/>
             </div>
     </header>
     <div style="z-index: 2" class="side-nav">
+        <img class="side-nav-logo" style="width:270px !important;height: 130px !important; margin-left: 150px !important; transform:translateY(30px) !important;" src="images/celltronics-logo-png.png"/>
 
         <h1 class="large home-go">Home</h1>
         <h1 class="large products-go">Products</h1>
         <h1 class="large videos-go">Videos</h1>
-        <h1 class="smaller inside-go">Inside</h1>
-        <h1 class="smaller events-go">Events</h1>
-        <h1 class="smaller contact-go">Contact</h1>
+        <h1 style="font-size:20px !important;" class="smaller inside-go">Inside</h1>
+        <h1 style="font-size:20px !important;" class="smaller events-go">Events</h1>
+        <h1 style="font-size:20px !important;" class="smaller contact-go">Contact</h1>
 
         <div class="side-side-nav">
 
@@ -64,6 +65,7 @@
         });
 
         $(".nav").click(function(){
+            $(".logo").toggleClass("hide-away");
             $("#nav-icon1 span, #nav-icon3 span, #nav-icon4 span").toggleClass("change-nav-color2");
 
             $(".logo").toggleClass("changeColor");

@@ -64,7 +64,7 @@ body {
 }
 .side-nav h1 {
 	margin-left:150px;
-	transform: translateY(150px);
+	transform: translateY(50px);
 	color:white;
 	transition: all 200ms ease-in-out;
 	font-family: Questrial, sans-serif;
@@ -98,6 +98,11 @@ body {
 	font-size:40px !important;
 	font-family: 'Pacifico', cursive;
 
+}
+
+.side-nav img {
+	width:20px !important;
+	height: 20px !important;
 }
 
 .change-nav-color2 {
