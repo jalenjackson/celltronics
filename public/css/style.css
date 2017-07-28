@@ -2123,8 +2123,6 @@ body {
 	}
 	.side-nav h1 {
 		font-size:20px !important;
-		margin-top:0px !important;
-		transform:translateY(-300px) !important;
 	}
 
 	.fa-bars {
@@ -2261,6 +2259,13 @@ body {
 		width:200px !important;
 	}
 
+	.side-nav-logo {
+		width:200px !important;
+		height:100px !important;
+	}
+
+	body {
+	}
 
 	.responsive-title {
 		font-size:20px !important;
