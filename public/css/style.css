@@ -343,6 +343,8 @@ p{
 	background:#f9f9f9;
 	position:relative !important;
 	overflow: hidden !important;
+	margin-left: 50px !important;
+	margin-right: 50px!important;
 	}
 
 .side-nav {
